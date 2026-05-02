@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ContactButton from './ContactButton';
 export default function Footer() {
   return (
     <footer className="footer" id="contact">
@@ -38,12 +39,12 @@ export default function Footer() {
               <li><Link href="/for-agencies">For Agencies</Link></li>
               <li><Link href="/case-studies">Case Studies</Link></li>
               <li>
-                <button 
-                  onClick={() => window.dispatchEvent(new Event('open-contact-popup'))} 
+                <ContactButton 
+                  className="" 
                   style={{ background: 'none', border: 'none', color: 'rgba(255, 255, 255, 0.7)', padding: 0, cursor: 'pointer', fontSize: '0.95rem' }}
                 >
                   Contact
-                </button>
+                </ContactButton>
               </li>
             </ul>
           </div>
