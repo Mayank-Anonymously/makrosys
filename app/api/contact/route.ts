@@ -49,15 +49,84 @@ export async function POST(request: Request) {
         ${message}
       `,
       html: `
-        <h3>New Lead Submitted</h3>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone || 'N/A'}</p>
-        <p><strong>Company:</strong> ${company || 'N/A'}</p>
-        <p><strong>Service:</strong> ${service || 'N/A'}</p>
-        <h4>Message:</h4>
-        <p>${message.replace(/\\n/g, '<br>')}</p>
-      `,
+<div style="margin:0; padding:0; background:#f4f6f9; font-family:Arial, sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="padding:20px;">
+    <tr>
+      <td align="center">
+
+        <table width="600" cellpadding="0" cellspacing="0" style="background:#ffffff; border-radius:10px; overflow:hidden;">
+
+          <!-- Header -->
+          <tr>
+            <td style="background:#0b5cff; color:#ffffff; padding:20px; text-align:center;">
+              <h2 style="margin:0;">Makrosys Solutions Pvt Ltd</h2>
+              <p style="margin:5px 0 0;">New Lead Notification</p>
+            </td>
+          </tr>
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:25px; color:#333;">
+              
+              <h3 style="margin-top:0;">📩 New Inquiry Received</h3>
+              <p style="margin-bottom:20px;">
+                You’ve received a new lead from your website. Here are the details:
+              </p>
+
+              <table width="100%" cellpadding="8" cellspacing="0" style="border-collapse:collapse;">
+                <tr style="background:#f8f9fc;">
+                  <td><strong>Name</strong></td>
+                  <td>${name}</td>
+                </tr>
+                <tr>
+                  <td><strong>Email</strong></td>
+                  <td>${email}</td>
+                </tr>
+                <tr style="background:#f8f9fc;">
+                  <td><strong>Phone</strong></td>
+                  <td>${phone || 'N/A'}</td>
+                </tr>
+                <tr>
+                  <td><strong>Company</strong></td>
+                  <td>${company || 'N/A'}</td>
+                </tr>
+                <tr style="background:#f8f9fc;">
+                  <td><strong>Service</strong></td>
+                  <td>${service || 'N/A'}</td>
+                </tr>
+              </table>
+
+              <h4 style="margin-top:25px;">💬 Message</h4>
+              <div style="background:#f8f9fc; padding:15px; border-radius:6px;">
+                ${message.replace(/\\n/g, '<br>')}
+              </div>
+
+              <!-- CTA -->
+              <div style="margin-top:25px; text-align:center;">
+                <a href="mailto:${email}" 
+                   style="background:#0b5cff; color:#ffffff; padding:12px 20px; text-decoration:none; border-radius:5px; display:inline-block;">
+                   Reply to Lead
+                </a>
+              </div>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background:#f1f3f7; text-align:center; padding:15px; font-size:12px; color:#777;">
+              © ${new Date().getFullYear()} Makrosys Solutions Pvt Ltd  
+              <br/> Gurugram, India
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</div>
+`
     };
 
     // Send mail
