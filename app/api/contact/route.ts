@@ -35,8 +35,8 @@ export async function POST(request: Request) {
 
     // Set up email data
     const mailOptions = {
-      from: process.env.SMTP_FROM || process.env.SMTP_USER, // Sender address
-      to: process.env.SMTP_TO || 'hello@makrosyssolutions.com', // List of receivers
+      from: `Makrosys Solutions <${process.env.SMTP_USER}>`, // Sender address
+      to: email, // List of receivers
       subject: `New Lead: ${service ? service : 'General Inquiry'} from ${name}`,
       text: `
         Name: ${name}
