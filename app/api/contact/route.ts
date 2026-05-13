@@ -19,7 +19,7 @@ export async function POST(request: Request) {
         pass: process.env.SMTP_PASS,
       },
       tls: {
-        rejectUnauthorized: false, // 👈 FIX FOR SELF-SIGNED SSL (use with caution in prod)
+        rejectUnauthorized: false, //x 👈 FIX FOR SELF-SIGNED SSL (use with caution in prod)
       },
     });
 
@@ -38,6 +38,7 @@ export async function POST(request: Request) {
     const mailOptions = {
       from: `Makrosys Solutions <${process.env.SMTP_USER}>`, // Sender address
       to: email, // List of receivers
+      cc:"[EMAIL_ADDRESS]",
       subject: `New Lead: ${service ? service : 'General Inquiry'} from ${name}`,
       text: `
         Name: ${name}
