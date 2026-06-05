@@ -4881,3 +4881,117 @@ a.contact-card-value:hover {
     flex-direction: column;
   }
 }
+
+/* ===== GLOBAL WHATSAPP WIDGET ===== */
+.whatsapp-global-widget {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.whatsapp-global-widget * {
+  pointer-events: auto;
+}
+
+.whatsapp-btn-float {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 10px 30px rgba(22, 163, 74, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.whatsapp-btn-float:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: #15803d;
+  box-shadow: 0 15px 35px rgba(22, 163, 74, 0.5);
+}
+
+.whatsapp-bubble {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 14px 18px;
+  width: 240px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15);
+  animation: whatsappBubbleSlide 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.whatsapp-bubble-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  color: #94a3b8;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.whatsapp-bubble-close:hover {
+  color: #64748b;
+}
+
+.whatsapp-bubble-content .whatsapp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(22, 163, 74, 0.1);
+  color: #16a34a;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+
+.whatsapp-bubble-content .whatsapp-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #16a34a;
+  border-radius: 50%;
+  display: inline-block;
+  animation: whatsappPulse 1.5s infinite;
+}
+
+.whatsapp-bubble-content p {
+  color: #0b0f19;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.4;
+}
+
+@keyframes whatsappBubbleSlide {
+  from { opacity: 0; transform: translateY(15px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes whatsappPulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.5); opacity: 0.5; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (max-width: 720px) {
+  .whatsapp-global-widget {
+    right: 16px;
+    bottom: 80px;
+  }
+}
+

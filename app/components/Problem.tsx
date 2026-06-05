@@ -6,35 +6,35 @@ export default function Problem() {
       <div className="container">
         <div className="section-header text-center">
           <h2 className="section-title">
-            The <span>Agency Growth Trap</span>
+            The <span>UAE Growth Bottlenecks</span>
           </h2>
           <p className="section-subtitle mx-auto" style={{ maxWidth: '700px' }}>
-            Marketing agencies hit a wall when they lack reliable technical execution.
+            High-growth companies and agencies in Dubai hit a wall when their technology and CRM workflows fail to keep pace.
           </p>
         </div>
 
         <div className="problem-grid">
           <div className="problem-card">
             <div className="problem-icon">💸</div>
-            <h3>Hiring US Developers is Expensive</h3>
+            <h3>Local UAE Hiring is Expensive</h3>
             <p>
-              In-house senior developers in the US demand $120K-$180K+ salaries, crushing your profit margins before the project even starts.
+              Hiring in-house senior engineers and CRM specialists in Dubai is slow and commands premium salaries, visa costs, and office overheads, crushing your operational margins.
             </p>
           </div>
           
           <div className="problem-card">
-            <div className="problem-icon">📈</div>
-            <h3>Scaling Delivery is Painful</h3>
+            <div className="problem-icon">🐌</div>
+            <h3>Slow Delivery Cycles</h3>
             <p>
-              Client workloads are unpredictable. You either have too many developers sitting idle on the bench, or not enough talent to deliver when you land a huge account.
+              Traditional regional dev agencies move at a sluggish pace. Projects drag on for months, delaying critical product launches and sales cycles that should be executed in weeks.
             </p>
           </div>
           
           <div className="problem-card">
-            <div className="problem-icon">🚪</div>
-            <h3>Losing Clients to Tech Gaps</h3>
+            <div className="problem-icon">📉</div>
+            <h3>CRM Leakage &amp; Weak Follow-up</h3>
             <p>
-              When a client asks for a custom app or complex CRM integration, you shouldn't have to say "we don't do that" and watch them walk to a full-service competitor.
+              Valuable advertising leads slip through the cracks when WhatsApp inquiries, phone calls, and forms are managed in disjointed spreadsheets instead of an automated pipeline.
             </p>
           </div>
         </div>
