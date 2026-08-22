@@ -28,21 +28,21 @@ const SERVICES = [
 		description:
 			'Recruit and connect professionals across relevant allied healthcare disciplines to strengthen care teams.',
 		href: '/healthcare/allied-healthcare',
-		img: '/images/healthcare/allied.jpg',
+		img: '/images/healthcare/allied.svg',
 	},
 	{
 		title: 'Temporary Staffing',
 		description:
 			'Flexible staffing solutions based on facility requirements, timing and applicable workforce regulations.',
 		href: '/healthcare/staffing',
-		img: '/images/healthcare/temp.jpg',
+		img: '/images/healthcare/temp.svg',
 	},
 	{
 		title: 'Permanent Placement',
 		description:
 			'Recruitment solutions for organizations looking for long-term healthcare professionals and steady continuity.',
 		href: '/healthcare/staffing',
-		img: '/images/healthcare/permanent.jpg',
+		img: '/images/healthcare/permanent.svg',
 	},
 ];
 

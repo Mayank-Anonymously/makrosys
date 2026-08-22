@@ -1,0 +1,27 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgAllied" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F9FF"/>
+      <stop offset="1" stop-color="#E8F6F4"/>
+    </linearGradient>
+    <linearGradient id="panelAllied" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123B5D"/>
+      <stop offset="1" stop-color="#0F8B8D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgAllied)"/>
+  <circle cx="700" cy="100" r="75" fill="#D9EEF5" fill-opacity="0.8"/>
+  <circle cx="130" cy="90" r="65" fill="#B7E5E5" fill-opacity="0.6"/>
+  <rect x="80" y="90" width="640" height="270" rx="28" fill="white" fill-opacity="0.9"/>
+  <rect x="110" y="140" width="230" height="175" rx="24" fill="url(#panelAllied)"/>
+  <circle cx="190" cy="188" r="42" fill="#EAF7FB"/>
+  <path d="M170 248C170 226.461 187.461 209 209 209H211C232.539 209 250 226.461 250 248V267H170V248Z" fill="#EAF7FB"/>
+  <path d="M226 177H254V230H226V177Z" fill="#A8D5D7"/>
+  <path d="M192 194H288V217H192V194Z" fill="#A8D5D7"/>
+  <path d="M456 170H610" stroke="#0F8B8D" stroke-width="18" stroke-linecap="round"/>
+  <path d="M533 100V240" stroke="#0F8B8D" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="533" cy="170" r="38" fill="#D9EEF5"/>
+  <rect x="400" y="260" width="255" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="400" y="300" width="210" height="18" rx="9" fill="#D9EEF5"/>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#123B5D">Allied Healthcare Staffing</text>
+</svg>

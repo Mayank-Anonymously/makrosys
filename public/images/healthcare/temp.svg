@@ -1,0 +1,29 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgTemp" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7FB"/>
+      <stop offset="1" stop-color="#DDECF7"/>
+    </linearGradient>
+    <linearGradient id="cardTemp" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123B5D"/>
+      <stop offset="1" stop-color="#0F8B8D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgTemp)"/>
+  <circle cx="120" cy="90" r="60" fill="#B7E5E5" fill-opacity="0.6"/>
+  <circle cx="700" cy="120" r="80" fill="#C9E9F3" fill-opacity="0.7"/>
+  <rect x="70" y="90" width="660" height="270" rx="28" fill="white" fill-opacity="0.9"/>
+  <rect x="110" y="130" width="220" height="170" rx="24" fill="url(#cardTemp)"/>
+  <rect x="145" y="170" width="64" height="70" rx="16" fill="#EAF7FB"/>
+  <rect x="224" y="170" width="64" height="70" rx="16" fill="#EAF7FB"/>
+  <rect x="145" y="250" width="143" height="18" rx="9" fill="#B7E5E5"/>
+  <rect x="145" y="278" width="92" height="12" rx="6" fill="#A8D5D7"/>
+  <rect x="400" y="160" width="260" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="400" y="198" width="210" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="400" y="236" width="240" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="400" y="274" width="170" height="18" rx="9" fill="#D9EEF5"/>
+  <path d="M595 160L660 125L660 195L595 160Z" fill="#0F8B8D" fill-opacity="0.9"/>
+  <circle cx="660" cy="125" r="24" fill="#123B5D"/>
+  <path d="M660 101V149M636 125H684" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#123B5D">Temporary Staffing</text>
+</svg>

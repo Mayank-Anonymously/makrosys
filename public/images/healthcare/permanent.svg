@@ -1,0 +1,27 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgPermanent" x1="0" y1="0" x2="800" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FBFA"/>
+      <stop offset="1" stop-color="#E8F3F7"/>
+    </linearGradient>
+    <linearGradient id="panelPermanent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F8B8D"/>
+      <stop offset="1" stop-color="#123B5D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgPermanent)"/>
+  <circle cx="700" cy="100" r="72" fill="#C9E9F3" fill-opacity="0.7"/>
+  <circle cx="130" cy="120" r="55" fill="#B7E5E5" fill-opacity="0.6"/>
+  <rect x="80" y="90" width="640" height="270" rx="28" fill="white" fill-opacity="0.9"/>
+  <rect x="120" y="135" width="230" height="180" rx="26" fill="url(#panelPermanent)"/>
+  <circle cx="205" cy="185" r="42" fill="#EAF7FB"/>
+  <path d="M170 260C170 239.013 188.013 222 209 222H212C232.987 222 251 239.013 251 260V275H170V260Z" fill="#EAF7FB"/>
+  <path d="M295 176L351 129L381 159L325 209L295 176Z" fill="#A8D5D7"/>
+  <path d="M299 221L381 159" stroke="#EAF7FB" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="380" cy="160" r="18" fill="#EAF7FB"/>
+  <rect x="395" y="160" width="220" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="395" y="196" width="260" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="395" y="232" width="230" height="18" rx="9" fill="#D9EEF5"/>
+  <rect x="395" y="268" width="175" height="18" rx="9" fill="#D9EEF5"/>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#123B5D">Permanent Placement</text>
+</svg>

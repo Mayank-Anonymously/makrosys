@@ -45,8 +45,8 @@ export default function HealthcareHero() {
 							position: 'relative',
 						}}>
 						<Image
-							src='/images/healthcare/hero-placeholder.svg'
-							alt='Healthcare professionals in a modern hospital setting'
+							src='/images/healthcare/rn.jpg'
+							alt='Healthcare professionals in a clinical setting'
 							fill
 							priority
 							style={{ objectFit: 'cover', borderRadius: 12 }}
