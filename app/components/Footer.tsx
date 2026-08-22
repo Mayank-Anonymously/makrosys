@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import ContactButton from './ContactButton';
+
 export default function Footer() {
 	return (
 		<footer
@@ -22,120 +22,70 @@ export default function Footer() {
 							/>
 						</div>
 						<p>
-							We are a premium offshore technology and CRM partner specializing
-							in custom web applications, mobile apps, CRM solutions, and
-							enterprise automations built for Dubai, UAE, and GCC businesses.
+							MAKROSYS HEALTHCARE supports healthcare staffing and recruitment
+							needs by connecting healthcare organizations with qualified
+							professionals through a structured, technology-enabled process.
 						</p>
-						<div className='footer-socials'>
-							<a
-								href='#'
-								className='footer-social'
-								aria-label='LinkedIn'>
-								in
-							</a>
-							<a
-								href='#'
-								className='footer-social'
-								aria-label='Twitter'>
-								𝕏
-							</a>
-							<a
-								href='#'
-								className='footer-social'
-								aria-label='Instagram'>
-								📷
-							</a>
-							<a
-								href='#'
-								className='footer-social'
-								aria-label='YouTube'>
-								▶
-							</a>
-						</div>
 					</div>
 
 					<div className='footer-column'>
-						<h4>Services</h4>
+						<h4>Healthcare</h4>
 						<ul>
 							<li>
-								<Link href='/dubai-web-development'>Web Development</Link>
+								<Link href='/healthcare'>Healthcare Home</Link>
 							</li>
 							<li>
-								<Link href='/mobile-app-development-dubai'>
-									App Development
-								</Link>
+								<Link href='/healthcare/staffing'>Healthcare Staffing</Link>
 							</li>
 							<li>
-								<Link href='/crm-development-dubai'>CRM Integration</Link>
+								<Link href='/healthcare/nursing'>Nursing Staffing</Link>
 							</li>
 							<li>
-								<Link href='/offshore-development-uae'>Offshore Dev</Link>
-							</li>
-							<li>
-								<Link href='/dedicated-developers-dubai'>
-									Dedicated Developers
+								<Link href='/healthcare/allied-healthcare'>
+									Allied Healthcare
 								</Link>
 							</li>
 						</ul>
 					</div>
 
 					<div className='footer-column'>
-						<h4>Company</h4>
+						<h4>Makrosys Healthcare</h4>
 						<ul>
 							<li>
-								<Link href='/about'>About Us</Link>
+								<Link href='/healthcare/for-hospitals'>For Hospitals</Link>
 							</li>
 							<li>
-								<Link href='/for-agencies'>For Agencies</Link>
+								<Link href='/healthcare/for-professionals'>
+									For Professionals
+								</Link>
 							</li>
 							<li>
-								<Link href='/case-studies'>Case Studies</Link>
+								<Link href='/healthcare/our-process'>Our Process</Link>
 							</li>
 							<li>
-								<ContactButton
-									className=''
-									style={{
-										background: 'none',
-										border: 'none',
-										color: 'rgba(255, 255, 255, 0.7)',
-										padding: 0,
-										cursor: 'pointer',
-										fontSize: '0.95rem',
-									}}>
-									Contact
-								</ContactButton>
+								<Link href='/healthcare/compliance'>Compliance</Link>
+							</li>
+							<li>
+								<Link href='/healthcare/contact'>Contact</Link>
 							</li>
 						</ul>
+						<p style={{ marginTop: 12, fontSize: 13 }}>
+							Healthcare division of Makrosys Solutions
+						</p>
 					</div>
 
 					<div className='footer-column'>
-						<h4>Contact Us</h4>
+						<h4>Contact</h4>
 						<ul>
 							<li>
-								<a
-									href='https://wa.me/918082012995?text=Hi%20Makrosys%2C%20I%20want%20to%20discuss%20a%20technology%20project%20for%20our%20business.'
-									target='_blank'
-									rel='noopener noreferrer'>
-									💬 WhatsApp: +91 80820 12995
+								<Link href='/healthcare/contact'>
+									Contact Makrosys Healthcare
+								</Link>
+							</li>
+							<li>
+								<a href='mailto:onboarding@makrosyssolutions.com'>
+									✉️ onboarding@makrosyssolutions.com
 								</a>
-							</li>
-							<li>
-								<a href='tel:+14698957031'>📞 +1 469-895-7031</a>
-							</li>
-							<li>
-								<a href='mailto:hr@makrosyssolutions.com'>
-									✉️ hr@makrosyssolutions.com
-								</a>
-							</li>
-							<li>
-								<span
-									style={{
-										color: 'rgba(255,255,255,0.55)',
-										fontSize: '0.85rem',
-									}}>
-									📍 Serving Dubai & GCC Businesses. Offshore Delivery Hub:
-									Gurgaon, India.
-								</span>
 							</li>
 						</ul>
 					</div>
@@ -146,7 +96,6 @@ export default function Footer() {
 					<div className='footer-bottom-links'>
 						<Link href='/privacy'>Privacy Policy</Link>
 						<Link href='/terms'>Terms of Service</Link>
-						<Link href='/privacy'>Cookie Policy</Link>
 					</div>
 				</div>
 			</div>

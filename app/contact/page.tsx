@@ -133,11 +133,6 @@ export default function ContactPage() {
 													className='contact-card-value'>
 													🇮🇳 808-201-2995
 												</a>
-												<a
-													href='tel:+14698957031'
-													className='contact-card-value'>
-													🇺🇸 +1 469-895-7031
-												</a>
 											</div>
 										</div>
 									</div>
@@ -147,9 +142,9 @@ export default function ContactPage() {
 										<div>
 											<div className='contact-card-label'>Email</div>
 											<a
-												href='mailto:hr@makrosyssolutions.com'
+												href='mailto:onboarding@makrosyssolutions.com'
 												className='contact-card-value'>
-												hr@makrosyssolutions.com
+												onboarding@makrosyssolutions.com
 											</a>
 										</div>
 									</div>
